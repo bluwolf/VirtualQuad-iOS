@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1F4F941B2E323D003506AD /* Table_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1F4F931B2E323D003506AD /* Table_2.png */; };
+		8C4994FD1B2CEBB90052323A /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4994FC1B2CEBB90052323A /* MainTabBarViewController.m */; };
+		8C4994FF1B2CED000052323A /* Tab_Bar_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4994FE1B2CED000052323A /* Tab_Bar_Background.png */; };
+		8C4995021B2D177E0052323A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4995011B2D177E0052323A /* HomeViewController.m */; };
+		8C4995051B2D17A40052323A /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4995041B2D17A40052323A /* SearchViewController.m */; };
+		8C4995081B2D17C90052323A /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4995071B2D17C90052323A /* CalendarViewController.m */; };
+		8C49950B1B2D19410052323A /* CreateEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C49950A1B2D19410052323A /* CreateEventViewController.m */; };
+		8C49950E1B2D19520052323A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C49950D1B2D19520052323A /* SettingsViewController.m */; };
+		8C6CAA7E1B2CC5EA00BDC39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CAA7D1B2CC5EA00BDC39A /* main.m */; };
+		8C6CAA811B2CC5EA00BDC39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CAA801B2CC5EA00BDC39A /* AppDelegate.m */; };
+		8C6CAA871B2CC5EA00BDC39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6CAA851B2CC5EA00BDC39A /* Main.storyboard */; };
+		8C6CAA891B2CC5EA00BDC39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6CAA881B2CC5EA00BDC39A /* Images.xcassets */; };
+		8C6CAA8C1B2CC5EA00BDC39A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C6CAA8A1B2CC5EA00BDC39A /* LaunchScreen.xib */; };
+		8C6CAA981B2CC5EA00BDC39A /* VirtualQuadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CAA971B2CC5EA00BDC39A /* VirtualQuadTests.m */; };
+		8CBE026E1B2CDEF4003F7D11 /* Calendar_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE02621B2CDEF4003F7D11 /* Calendar_Icon.png */; };
+		8CBE026F1B2CDEF4003F7D11 /* Create_Event_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE02631B2CDEF4003F7D11 /* Create_Event_Icon.png */; };
+		8CBE02701B2CDEF4003F7D11 /* home_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE02641B2CDEF4003F7D11 /* home_background.png */; };
+		8CBE02711B2CDEF4003F7D11 /* Home_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE02651B2CDEF4003F7D11 /* Home_Icon.png */; };
+		8CBE02721B2CDEF4003F7D11 /* Label_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE02661B2CDEF4003F7D11 /* Label_17.png */; };
+		8CBE02731B2CDEF4003F7D11 /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE02671B2CDEF4003F7D11 /* locationIcon.png */; };
+		8CBE02741B2CDEF4003F7D11 /* SC_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE02681B2CDEF4003F7D11 /* SC_Icon.png */; };
+		8CBE02751B2CDEF4003F7D11 /* searchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE02691B2CDEF4003F7D11 /* searchIcon.png */; };
+		8CBE02761B2CDEF4003F7D11 /* Settings_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE026A1B2CDEF4003F7D11 /* Settings_Icon.png */; };
+		8CBE02771B2CDEF4003F7D11 /* timeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE026B1B2CDEF4003F7D11 /* timeIcon.png */; };
+		8CBE02781B2CDEF4003F7D11 /* trojan_head_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE026C1B2CDEF4003F7D11 /* trojan_head_right.png */; };
+		8CBE02791B2CDEF4003F7D11 /* Trojan_Head.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE026D1B2CDEF4003F7D11 /* Trojan_Head.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C6CAA921B2CC5EA00BDC39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C6CAA701B2CC5EA00BDC39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C6CAA771B2CC5EA00BDC39A;
+			remoteInfo = VirtualQuad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C1F4F931B2E323D003506AD /* Table_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Table_2.png; sourceTree = "<group>"; };
+		8C4994FB1B2CEBB90052323A /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		8C4994FC1B2CEBB90052323A /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		8C4994FE1B2CED000052323A /* Tab_Bar_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Bar_Background.png; sourceTree = "<group>"; };
+		8C4995001B2D177E0052323A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8C4995011B2D177E0052323A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8C4995031B2D17A40052323A /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		8C4995041B2D17A40052323A /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		8C4995061B2D17C90052323A /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		8C4995071B2D17C90052323A /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		8C4995091B2D19410052323A /* CreateEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateEventViewController.h; sourceTree = "<group>"; };
+		8C49950A1B2D19410052323A /* CreateEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateEventViewController.m; sourceTree = "<group>"; };
+		8C49950C1B2D19520052323A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		8C49950D1B2D19520052323A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		8C6CAA781B2CC5EA00BDC39A /* VirtualQuad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualQuad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6CAA7C1B2CC5EA00BDC39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6CAA7D1B2CC5EA00BDC39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C6CAA7F1B2CC5EA00BDC39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C6CAA801B2CC5EA00BDC39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C6CAA861B2CC5EA00BDC39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C6CAA881B2CC5EA00BDC39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C6CAA8B1B2CC5EA00BDC39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8C6CAA911B2CC5EA00BDC39A /* VirtualQuadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualQuadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6CAA961B2CC5EA00BDC39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6CAA971B2CC5EA00BDC39A /* VirtualQuadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualQuadTests.m; sourceTree = "<group>"; };
+		8CBE02621B2CDEF4003F7D11 /* Calendar_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar_Icon.png; sourceTree = "<group>"; };
+		8CBE02631B2CDEF4003F7D11 /* Create_Event_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Create_Event_Icon.png; sourceTree = "<group>"; };
+		8CBE02641B2CDEF4003F7D11 /* home_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_background.png; sourceTree = "<group>"; };
+		8CBE02651B2CDEF4003F7D11 /* Home_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_Icon.png; sourceTree = "<group>"; };
+		8CBE02661B2CDEF4003F7D11 /* Label_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Label_17.png; sourceTree = "<group>"; };
+		8CBE02671B2CDEF4003F7D11 /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationIcon.png; sourceTree = "<group>"; };
+		8CBE02681B2CDEF4003F7D11 /* SC_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SC_Icon.png; sourceTree = "<group>"; };
+		8CBE02691B2CDEF4003F7D11 /* searchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchIcon.png; sourceTree = "<group>"; };
+		8CBE026A1B2CDEF4003F7D11 /* Settings_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings_Icon.png; sourceTree = "<group>"; };
+		8CBE026B1B2CDEF4003F7D11 /* timeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeIcon.png; sourceTree = "<group>"; };
+		8CBE026C1B2CDEF4003F7D11 /* trojan_head_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trojan_head_right.png; sourceTree = "<group>"; };
+		8CBE026D1B2CDEF4003F7D11 /* Trojan_Head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trojan_Head.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C6CAA751B2CC5EA00BDC39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6CAA8E1B2CC5EA00BDC39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C6CAA6F1B2CC5EA00BDC39A = {
+			isa = PBXGroup;
+			children = (
+				8C6CAA7A1B2CC5EA00BDC39A /* VirtualQuad */,
+				8C6CAA941B2CC5EA00BDC39A /* VirtualQuadTests */,
+				8C6CAA791B2CC5EA00BDC39A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C6CAA791B2CC5EA00BDC39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C6CAA781B2CC5EA00BDC39A /* VirtualQuad.app */,
+				8C6CAA911B2CC5EA00BDC39A /* VirtualQuadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C6CAA7A1B2CC5EA00BDC39A /* VirtualQuad */ = {
+			isa = PBXGroup;
+			children = (
+				8C6CAA7F1B2CC5EA00BDC39A /* AppDelegate.h */,
+				8C6CAA801B2CC5EA00BDC39A /* AppDelegate.m */,
+				8C6CAA851B2CC5EA00BDC39A /* Main.storyboard */,
+				8C1F4F931B2E323D003506AD /* Table_2.png */,
+				8C6CAA881B2CC5EA00BDC39A /* Images.xcassets */,
+				8C6CAA8A1B2CC5EA00BDC39A /* LaunchScreen.xib */,
+				8CBE02591B2CDD34003F7D11 /* ImageAssets */,
+				8C6CAA7B1B2CC5EA00BDC39A /* Supporting Files */,
+				8C4994FB1B2CEBB90052323A /* MainTabBarViewController.h */,
+				8C4994FC1B2CEBB90052323A /* MainTabBarViewController.m */,
+				8C4995001B2D177E0052323A /* HomeViewController.h */,
+				8C4995011B2D177E0052323A /* HomeViewController.m */,
+				8C4995031B2D17A40052323A /* SearchViewController.h */,
+				8C4995041B2D17A40052323A /* SearchViewController.m */,
+				8C4995061B2D17C90052323A /* CalendarViewController.h */,
+				8C4995071B2D17C90052323A /* CalendarViewController.m */,
+				8C4995091B2D19410052323A /* CreateEventViewController.h */,
+				8C49950A1B2D19410052323A /* CreateEventViewController.m */,
+				8C49950C1B2D19520052323A /* SettingsViewController.h */,
+				8C49950D1B2D19520052323A /* SettingsViewController.m */,
+			);
+			path = VirtualQuad;
+			sourceTree = "<group>";
+		};
+		8C6CAA7B1B2CC5EA00BDC39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C6CAA7C1B2CC5EA00BDC39A /* Info.plist */,
+				8C6CAA7D1B2CC5EA00BDC39A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C6CAA941B2CC5EA00BDC39A /* VirtualQuadTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C6CAA971B2CC5EA00BDC39A /* VirtualQuadTests.m */,
+				8C6CAA951B2CC5EA00BDC39A /* Supporting Files */,
+			);
+			path = VirtualQuadTests;
+			sourceTree = "<group>";
+		};
+		8C6CAA951B2CC5EA00BDC39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C6CAA961B2CC5EA00BDC39A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CBE02591B2CDD34003F7D11 /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				8C4994FE1B2CED000052323A /* Tab_Bar_Background.png */,
+				8CBE02621B2CDEF4003F7D11 /* Calendar_Icon.png */,
+				8CBE02631B2CDEF4003F7D11 /* Create_Event_Icon.png */,
+				8CBE02641B2CDEF4003F7D11 /* home_background.png */,
+				8CBE02651B2CDEF4003F7D11 /* Home_Icon.png */,
+				8CBE02661B2CDEF4003F7D11 /* Label_17.png */,
+				8CBE02671B2CDEF4003F7D11 /* locationIcon.png */,
+				8CBE02681B2CDEF4003F7D11 /* SC_Icon.png */,
+				8CBE02691B2CDEF4003F7D11 /* searchIcon.png */,
+				8CBE026A1B2CDEF4003F7D11 /* Settings_Icon.png */,
+				8CBE026B1B2CDEF4003F7D11 /* timeIcon.png */,
+				8CBE026C1B2CDEF4003F7D11 /* trojan_head_right.png */,
+				8CBE026D1B2CDEF4003F7D11 /* Trojan_Head.png */,
+			);
+			name = ImageAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C6CAA771B2CC5EA00BDC39A /* VirtualQuad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6CAA9B1B2CC5EA00BDC39A /* Build configuration list for PBXNativeTarget "VirtualQuad" */;
+			buildPhases = (
+				8C6CAA741B2CC5EA00BDC39A /* Sources */,
+				8C6CAA751B2CC5EA00BDC39A /* Frameworks */,
+				8C6CAA761B2CC5EA00BDC39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualQuad;
+			productName = VirtualQuad;
+			productReference = 8C6CAA781B2CC5EA00BDC39A /* VirtualQuad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C6CAA901B2CC5EA00BDC39A /* VirtualQuadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6CAA9E1B2CC5EA00BDC39A /* Build configuration list for PBXNativeTarget "VirtualQuadTests" */;
+			buildPhases = (
+				8C6CAA8D1B2CC5EA00BDC39A /* Sources */,
+				8C6CAA8E1B2CC5EA00BDC39A /* Frameworks */,
+				8C6CAA8F1B2CC5EA00BDC39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C6CAA931B2CC5EA00BDC39A /* PBXTargetDependency */,
+			);
+			name = VirtualQuadTests;
+			productName = VirtualQuadTests;
+			productReference = 8C6CAA911B2CC5EA00BDC39A /* VirtualQuadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C6CAA701B2CC5EA00BDC39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Xiaohan Chen";
+				TargetAttributes = {
+					8C6CAA771B2CC5EA00BDC39A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8C6CAA901B2CC5EA00BDC39A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8C6CAA771B2CC5EA00BDC39A;
+					};
+				};
+			};
+			buildConfigurationList = 8C6CAA731B2CC5EA00BDC39A /* Build configuration list for PBXProject "VirtualQuad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C6CAA6F1B2CC5EA00BDC39A;
+			productRefGroup = 8C6CAA791B2CC5EA00BDC39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C6CAA771B2CC5EA00BDC39A /* VirtualQuad */,
+				8C6CAA901B2CC5EA00BDC39A /* VirtualQuadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C6CAA761B2CC5EA00BDC39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBE02741B2CDEF4003F7D11 /* SC_Icon.png in Resources */,
+				8CBE02771B2CDEF4003F7D11 /* timeIcon.png in Resources */,
+				8CBE02751B2CDEF4003F7D11 /* searchIcon.png in Resources */,
+				8C4994FF1B2CED000052323A /* Tab_Bar_Background.png in Resources */,
+				8CBE026F1B2CDEF4003F7D11 /* Create_Event_Icon.png in Resources */,
+				8C6CAA871B2CC5EA00BDC39A /* Main.storyboard in Resources */,
+				8CBE02701B2CDEF4003F7D11 /* home_background.png in Resources */,
+				8CBE02731B2CDEF4003F7D11 /* locationIcon.png in Resources */,
+				8C1F4F941B2E323D003506AD /* Table_2.png in Resources */,
+				8CBE02711B2CDEF4003F7D11 /* Home_Icon.png in Resources */,
+				8C6CAA8C1B2CC5EA00BDC39A /* LaunchScreen.xib in Resources */,
+				8CBE026E1B2CDEF4003F7D11 /* Calendar_Icon.png in Resources */,
+				8CBE02781B2CDEF4003F7D11 /* trojan_head_right.png in Resources */,
+				8CBE02761B2CDEF4003F7D11 /* Settings_Icon.png in Resources */,
+				8CBE02721B2CDEF4003F7D11 /* Label_17.png in Resources */,
+				8CBE02791B2CDEF4003F7D11 /* Trojan_Head.png in Resources */,
+				8C6CAA891B2CC5EA00BDC39A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6CAA8F1B2CC5EA00BDC39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C6CAA741B2CC5EA00BDC39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C49950B1B2D19410052323A /* CreateEventViewController.m in Sources */,
+				8C4994FD1B2CEBB90052323A /* MainTabBarViewController.m in Sources */,
+				8C6CAA811B2CC5EA00BDC39A /* AppDelegate.m in Sources */,
+				8C49950E1B2D19520052323A /* SettingsViewController.m in Sources */,
+				8C4995051B2D17A40052323A /* SearchViewController.m in Sources */,
+				8C6CAA7E1B2CC5EA00BDC39A /* main.m in Sources */,
+				8C4995081B2D17C90052323A /* CalendarViewController.m in Sources */,
+				8C4995021B2D177E0052323A /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6CAA8D1B2CC5EA00BDC39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6CAA981B2CC5EA00BDC39A /* VirtualQuadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C6CAA931B2CC5EA00BDC39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C6CAA771B2CC5EA00BDC39A /* VirtualQuad */;
+			targetProxy = 8C6CAA921B2CC5EA00BDC39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C6CAA851B2CC5EA00BDC39A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C6CAA861B2CC5EA00BDC39A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C6CAA8A1B2CC5EA00BDC39A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C6CAA8B1B2CC5EA00BDC39A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C6CAA991B2CC5EA00BDC39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C6CAA9A1B2CC5EA00BDC39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C6CAA9C1B2CC5EA00BDC39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VirtualQuad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C6CAA9D1B2CC5EA00BDC39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VirtualQuad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C6CAA9F1B2CC5EA00BDC39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VirtualQuadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualQuad.app/VirtualQuad";
+			};
+			name = Debug;
+		};
+		8C6CAAA01B2CC5EA00BDC39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VirtualQuadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualQuad.app/VirtualQuad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C6CAA731B2CC5EA00BDC39A /* Build configuration list for PBXProject "VirtualQuad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6CAA991B2CC5EA00BDC39A /* Debug */,
+				8C6CAA9A1B2CC5EA00BDC39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6CAA9B1B2CC5EA00BDC39A /* Build configuration list for PBXNativeTarget "VirtualQuad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6CAA9C1B2CC5EA00BDC39A /* Debug */,
+				8C6CAA9D1B2CC5EA00BDC39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6CAA9E1B2CC5EA00BDC39A /* Build configuration list for PBXNativeTarget "VirtualQuadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6CAA9F1B2CC5EA00BDC39A /* Debug */,
+				8C6CAAA01B2CC5EA00BDC39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C6CAA701B2CC5EA00BDC39A /* Project object */;
+}
